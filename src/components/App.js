@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      name: 'junsoo',
+      name: 'eunseo',
       posts: []
     }
   }
@@ -25,7 +25,7 @@ class App extends React.Component {
       <div className="main">
         <div className="post-list"></div>
         <div className="post-body">
-          <p>Title</p>
+          <p>Title2</p>
           <p>Content {this.state.name}</p>
         </div>
       </div>
